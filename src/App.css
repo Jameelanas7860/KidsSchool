@@ -1,0 +1,136 @@
+
+/* notch section start */
+.notch::before{
+    content: "";
+    position:absolute;
+    background: url(../public/img/section_notch_top.png);
+    background-repeat: repeat-x;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 7px;
+    z-index: 2;
+}
+.notch::after{
+    content: "";
+    position:absolute;
+    background: url(../public/img/section_notch_bottom.png);
+    background-repeat: repeat-x;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    z-index: 2;
+}
+/* notch section end */
+/* banner section start */
+.banner img{
+    width: 100%;
+}
+.start-35{left: 35% !important;}
+.fs-66{font-size: 66px;}
+.fs-36{font-size: 36px;}
+.fs-15{font-size: 15px;}
+.text{font-family: "Bubblegum Sans", sans-serif;}
+.fw-700{font-weight: 700;}
+.w-33{width: 33.33%;}
+.lh-20{line-height: 20px;}
+a{text-decoration: none;}
+
+.carousel-indicators[data-bs-target]{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width:575px) {
+    .fs-22{font-size: 22px;}
+    .fs-32{font-size: 32px;}
+    .banner , .carousel , .carousel img{
+        height: 500px;
+    }
+}
+
+/* banner section end */
+
+.about{
+    background: linear-gradient(rgba(7,143,203,.8),
+                rgba(7,143,203,.8)) , url(../public/img/about-bg.jpg);
+}
+
+/* popularclass start */
+.class-item{
+    background: #fafafa !important;
+    transition: 0.2s all !important;
+}
+.class-item:hover{
+    background: #fff !important;
+    transition: 0.2s all !important;
+    box-shadow: 0px , 0px ,15px , #cccccc !important;
+}
+/* popularclass end */
+/* teacher start */
+.teacher{
+    background: linear-gradient(rgba(71, 171, 35, .8),
+               rgba(71, 171, 35, .8)) , url(../public/img/teacher-bg.jpg);
+}
+.teacher-details .social-link i{
+    color: #fff;
+    margin: 17px 22px 20px 0px;
+    transition: all 0.3s;
+}
+.teacher-details .social-link i:hover{
+    transform: translateY(-3px);
+    transition: all 0.3s;
+}
+/* teacher end */
+
+/* newsletter start */
+ .newslwtter::after{
+    background: none;
+ }
+/* newsletter end */
+
+/* testimonial start */
+.testimonial::before{
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    font-size: 22px;
+    background: #fff;
+    color:burlywood;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+.testimonial::after{
+    font-family: FontAwesome;
+    content: "\f10e";
+    position: absolute;
+    bottom: -5px;
+    right: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: burlywood;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+/* testimonial end */
+
+/* contact start */
+.contact-form .contact-input {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #696969;
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px;
+    outline: none;
+}
+
+.form-control{ border: 2px solid rgb(113, 223, 223);}
+/* contact end */

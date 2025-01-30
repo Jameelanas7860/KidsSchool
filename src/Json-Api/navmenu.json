@@ -1,0 +1,33 @@
+[
+    {
+        "path":"/",
+        "menu":"Home",
+        "textcolor": "text-info"
+    },
+
+    {
+      "path":"/class",
+      "menu":"Classes",
+      "textcolor": "text-warning"
+    },
+
+    {
+      "path":"/teacher",
+      "menu":"Teacher",
+      "textcolor": "text-danger"
+    },
+
+    {
+      "path":"/contact",
+      "menu":"Contact",
+      "textcolor": "text-primary"
+    },
+
+    {
+      "path":"/about",
+      "menu":"About",
+      "textcolor": "text-success"
+    }
+    
+   
+  ]
