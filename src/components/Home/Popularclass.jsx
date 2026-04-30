@@ -22,7 +22,7 @@ function Popularclass() {
           <Col sm={6} lg={4}>
             <div className="class-item bg-secondary bg-opacity-10">
               <img
-                src={"./img/class_01.jpg"}
+                src={process.env.PUBLIC_URL +"/img/class_01.jpg"}
                 alt=""
                 className="img-fluid w-100"
               />
@@ -64,7 +64,7 @@ function Popularclass() {
           <Col sm={6} lg={4}>
             <div className="class-item bg-secondary bg-opacity-10">
               <img
-                src={"./img/class_02.jpg"}
+                src={process.env.PUBLIC_URL +"/img/class_02.jpg"}
                 alt=""
                 className="img-fluid w-100"
               />
@@ -106,7 +106,7 @@ function Popularclass() {
           <Col sm={6} lg={4}>
             <div className="class-item bg-secondary bg-opacity-10">
               <img
-                src={"./img/class_03.jpg"}
+                src={process.env.PUBLIC_URL +"/img/class_03.jpg"}
                 alt=""
                 className="img-fluid w-100"
               />

@@ -9,7 +9,7 @@ function About() {
         <Row>
           <Col md={6}>
             <img
-              src={"./img/about.png"}
+              src={process.env.PUBLIC_URL +"/img/about.png"}
               alt="about.png"
               className="img-fluid"
             />

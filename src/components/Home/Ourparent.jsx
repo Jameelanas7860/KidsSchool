@@ -28,10 +28,10 @@ function Ourparent() {
                          Joly Smith 
                          <span className='text-secondary fs-15 fw-normal'> UI/UX Designer</span>
                     </h3>
-                    <img src={"./img/testimonial_icon_01.jpg"} alt="testimonial-1" className='position-absolute top-100'/>
+                    <img src={process.env.PUBLIC_URL +"/img/testimonial_icon_01.jpg"} alt="testimonial-1" className='position-absolute top-100'/>
                 </div>
                 <div className='ps-3' >
-                    <img src={"./img/testimonial_01.jpg"} alt="" className='img-fluid rounded-circle border border-4 border-warning ms-5 mt-3 position-relative'/>
+                    <img src={process.env.PUBLIC_URL +"/img/testimonial_01.jpg"} alt="" className='img-fluid rounded-circle border border-4 border-warning ms-5 mt-3 position-relative'/>
                 </div>
             </Col>
             <Col sm={6} lg={4}>
@@ -44,10 +44,10 @@ function Ourparent() {
                          Joly Smith 
                          <span className='text-secondary fs-15 fw-normal'> UI/UX Designer</span>
                     </h3>
-                    <img src={"./img/testimonial_icon_02.jpg"} alt="testimonial-1" className='position-absolute top-100'/>
+                    <img src={process.env.PUBLIC_URL +"/img/testimonial_icon_02.jpg"} alt="testimonial-1" className='position-absolute top-100'/>
                 </div>
                 <div className='ps-3' >
-                    <img src={"./img/testimonial_02.jpg"} alt="" className='img-fluid rounded-circle border border-4 border-danger ms-5 mt-3 position-relative'/>
+                    <img src={process.env.PUBLIC_URL +"/img/testimonial_02.jpg"} alt="" className='img-fluid rounded-circle border border-4 border-danger ms-5 mt-3 position-relative'/>
                 </div>
             </Col>
             <Col sm={6} lg={4}>
@@ -60,10 +60,10 @@ function Ourparent() {
                          Joly Smith 
                          <span className='text-secondary fs-15 fw-normal'> UI/UX Designer</span>
                     </h3>
-                    <img src={"./img/testimonial_icon_03.jpg"} alt="testimonial-1" className='position-absolute top-100'/>
+                    <img src={process.env.PUBLIC_URL +"/img/testimonial_icon_03.jpg"} alt="testimonial-1" className='position-absolute top-100'/>
                 </div>
                 <div className='ps-3' >
-                    <img src={"./img/testimonial_03.jpg"} alt="" className='img-fluid rounded-circle border border-4 border-info ms-5 mt-3 position-relative'/>
+                    <img src={process.env.PUBLIC_URL +"/img/testimonial_03.jpg"} alt="" className='img-fluid rounded-circle border border-4 border-info ms-5 mt-3 position-relative'/>
                 </div>
             </Col>
         </Row>

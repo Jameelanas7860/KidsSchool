@@ -7,7 +7,7 @@ function Banner() {
     <section className="banner  notch position-relative mb-4">
       <Carousel>
         <Carousel.Item interval={3000}>
-          <img src={"./img/banner_01.jpg"} alt="banner1" style={{filter:"brightness(70%)"}} />
+          <img src={process.env.PUBLIC_URL +"/img/banner_01.jpg"} alt="banner1" style={{filter:"brightness(70%)"}} />
           <Carousel.Caption className="text-start" style={{top:"27%"}} >
             <h3 className="fw-bold fs-36 fs-22" data-aos="flip-up"> 
               Welcome to Kids Academy
@@ -26,7 +26,7 @@ function Banner() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img src={"./img/banner_02.jpg"} alt="banner2" style={{filter:"brightness(70%)"}}/>
+          <img src={process.env.PUBLIC_URL +"/img/banner_02.jpg"} alt="banner2" style={{filter:"brightness(70%)"}}/>
           <Carousel.Caption className="text-start" style={{top:"27%"}}>
             <h3 className="fw-bold fs-36 fs-22" data-aos="flip-up"> 
               Welcome to Kids Academy
@@ -45,7 +45,7 @@ function Banner() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img src={"./img/banner_03.jpg"} alt="banner3" style={{filter:"brightness(70%)"}}/>
+          <img src={process.env.PUBLIC_URL +"/img/banner_03.jpg"} alt="banner3" style={{filter:"brightness(70%)"}}/>
           <Carousel.Caption className="text-start" style={{top:"27%"}}>
             <h3 className="fw-bold fs-36 fs-22" data-aos="flip-up"> 
               Welcome to Kids Academy

@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 
 const teacher = [
   {
-    image: "./img/teacher_01.jpg",
+    image: process.env.PUBLIC_URL +"/img/teacher_01.jpg",
     teachername: "Broklyn Doel",
     teachersub: "Science Teacher",
     bgcolor: "bg-danger",
   },
   {
-    image: "./img/teacher_02.jpg",
+    image: process.env.PUBLIC_URL +"/img/teacher_02.jpg",
     teachername: "Alex Jhonson",
     teachersub: "Art Teacher",
     bgcolor: "bg-info",
   },
   {
-    image: "./img/teacher_03.jpg",
+    image: process.env.PUBLIC_URL +"/img/teacher_03.jpg",
     teachername: "Robot Jhonson ",
     teachersub: "Maths Teacher",
     bgcolor: "bg-warning",
   },
   {
-    image: "./img/teacher_04.jpg",
+    image: process.env.PUBLIC_URL +"/img/teacher_04.jpg",
     teachername: "Janaton Doe",
     teachersub: "English Teacher",
     bgcolor: "bg-primary",

@@ -10,7 +10,7 @@ function Navmenu() {
     <Navbar expand="lg" className="z-index-99 bg-white "  sticky="top"> 
       <Container >
         <Link to="/">
-          <img src={"./img/logo.png"} alt="" />
+          <img src={process.env.PUBLIC_URL +"/img/logo.png"} alt="" />
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

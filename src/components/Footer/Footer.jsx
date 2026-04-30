@@ -28,7 +28,7 @@ function Footer() {
       <Container>
         <Row>
           <Col sm={6} lg={3}>
-            <img src={"./img/logo.png"} alt="logo" className="mb-4"/>
+            <img src={process.env.PUBLIC_URL +"/img/logo.png"} alt="logo" className="mb-4"/>
             <p>
               Distily enable team driven services through extensive is a
               relatonships platforms with interactive content. Enthusiastically
@@ -104,19 +104,19 @@ function Footer() {
           <Col sm={6} lg={3}>
             <h3 className="text-info mb-4 ">Recent Photos</h3>
              <div className="d-flex align-items-center gap-2">
-              <div> <img src={"./img/gallery-1.jpg"} alt="gallery1"  className="my-2" /></div>
-              <div> <img src={"./img/gallery_02.jpg"} alt="gallery2" className="my-2" /></div>
-              <div> <img src={"./img/gallery_03.jpg"} alt="gallery3" className="my-2" /></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery-1.jpg"} alt="gallery1"  className="my-2" /></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_02.jpg"} alt="gallery2" className="my-2" /></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_03.jpg"} alt="gallery3" className="my-2" /></div>
              </div>
               <div className="d-flex align-items-center gap-2">
-              <div> <img src={"./img/gallery_04.jpg"} alt="gallery4" className="my-2" /></div>
-              <div> <img src={"./img/gallery_05.jpg"} alt="gallery5" className="my-2" /></div>
-              <div> <img src={"./img/gallery_06.jpg"} alt="gallery6" className="my-2" /></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_05.jpg"} alt="gallery5" className="my-2" /></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_06.jpg"} alt="gallery6" className="my-2" /></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_04.jpg"} alt="gallery4" className="my-2" /></div>
              </div> 
              <div className="d-flex align-items-center gap-2">
-              <div> <img src={"./img/gallery_07.jpg"} alt="gallery7"  className="my-2"/></div>
-              <div> <img src={"./img/gallery_08.jpg"} alt="gallery8"  className="my-2"/></div>
-              <div> <img src={"./img/gallery_09.jpg"} alt="gallery9"  className="my-2"/></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_07.jpg"} alt="gallery7"  className="my-2"/></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_08.jpg"} alt="gallery8"  className="my-2"/></div>
+              <div> <img src={process.env.PUBLIC_URL +"/img/gallery_09.jpg"} alt="gallery9"  className="my-2"/></div>
              </div> 
          
           
